@@ -1,0 +1,45 @@
+{
+  "name": "@everestate/serverless-router-event",
+  "version": "0.0.1",
+  "description": "Serverless Router plugin to handle events at AWS λ",
+  "keywords": [
+    "serverless",
+    "lambda",
+    "routing",
+    "router",
+    "route",
+    "sqs",
+    "event"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "test": "jest --verbose",
+    "coverage": "jest --coverage --no-cache"
+  },
+  "engines": {
+    "node": ">=8.10.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:everestate/serverless-router-event.git"
+  },
+  "bugs": {
+    "url": "https://github.com/everestate/serverless-router-event/issues"
+  },
+  "author": "Everestate",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@everestate/serverless-router": "file:../serverless-router"
+  },
+  "devDependencies": {
+    "eslint": "^5.15.3",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.15.0",
+    "eslint-plugin-jest": "^22.4.1",
+    "jest": "^24.5.0"
+  }
+}
