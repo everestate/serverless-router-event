@@ -33,7 +33,7 @@
     "access": "public"
   },
   "dependencies": {
-    "@everestate/serverless-router": "file:../serverless-router"
+    "@everestate/serverless-router": ">=0.5.0"
   },
   "devDependencies": {
     "eslint": "^5.15.3",
