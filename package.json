@@ -1,6 +1,6 @@
 {
   "name": "@everestate/serverless-router-event",
-  "version": "0.0.3",
+  "version": "0.1.0",
   "description": "Serverless Router plugin to handle events at AWS λ",
   "keywords": [
     "serverless",
